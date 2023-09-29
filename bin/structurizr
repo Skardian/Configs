@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+
+if [ $# -lt 1 ]; then
+  echo "Usage: $0 [workspace]"
+  exit 1
+fi
+
+docker run -it --rm -p 8080:8080 -v "$(readlink -f "$1"):/usr/local/structurizr" structurizr/lite
+
