@@ -13,7 +13,7 @@
     ~/.bashrc:
     ~/.commonrc:
     ~/.config/kitty/kitty.conf:
-    ~/.config/nvim: vim
+    ~/.config/nvim: nvim
     ~/.ctags:
     ~/.codespell-ignore:
     ~/.dunstrc:
